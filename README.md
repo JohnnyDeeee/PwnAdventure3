@@ -1,5 +1,23 @@
 http://www.pwnadventure.com/
 
+### Install
+#### Download files
+```
+cd PwnAdventure3
+wget http://pwnadventure.com/pwn3.tar.gz
+tar -xvf pwn3.tar.gz
+```
+#### Start server
+```
+docker-compose build
+docker-compose up
+```
+#### Stop server
+```
+docker-compose down
+```
+
+
 # Welcome to Pwnie Island!
 Pwn Adventure 3: Pwnie Island is a limited-release, first-person, true open-world MMORPG set on a beautiful island where anything could happen. That's because this game is intentionally vulnerable to all kinds of silly hacks! Flying, endless cash, and more are all one client change or network proxy away. Are you ready for the mayhem?!
 
